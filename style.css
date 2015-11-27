@@ -1,0 +1,28 @@
+.wrap{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: table;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.wrap > div{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding-left: 30px;
+}
+#field{
+	overflow: hidden;
+	display: inline-block;
+	width: 600px;
+	height: 600px;
+	background: black;
+	border: 1px solid black;
+}
+#field > div {
+    position: relative;
+    background: white;
+    border: 1px solid black;
+}
